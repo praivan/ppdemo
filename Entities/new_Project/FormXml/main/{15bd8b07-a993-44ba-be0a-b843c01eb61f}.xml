@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{15bd8b07-a993-44ba-be0a-b843c01eb61f}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{452c66c9-ad99-41a8-a5d2-4a4eeb5054a4}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{3b7e2bbf-0fa0-4b5c-b97f-bd0261756c77}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{4f62a574-f460-4bb4-8373-7f891cd52312}">
+                        <labels>
+                          <label description="Project Name" languagecode="1033" />
+                        </labels>
+                        <control id="new_projectname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="new_projectname" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4ce63763-990f-499c-8032-2ce0885bca9a}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{522f6500-2e79-4c6b-918b-0f0317a6b782}" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Status" languagecode="1033" />
+                        </labels>
+                        <control id="new_status" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="new_status" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{431989ed-dea5-4316-88e1-1f64fc99369e}">
+                        <labels>
+                          <label description="Start Date" languagecode="1033" />
+                        </labels>
+                        <control id="new_startdate" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="new_startdate" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{fedd01c7-3177-449a-8be3-7ad6b8e396aa}">
+                        <labels>
+                          <label description="End Date" languagecode="1033" />
+                        </labels>
+                        <control id="new_enddate" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="new_enddate" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{e23c9190-7195-4fbe-990c-6f3a39ddeabc}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{6a7ced74-365e-4df5-92a1-db14dab84285}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{7080afaf-0efd-49cd-b5b0-01916ea0f70f}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{ee673add-9b87-4887-bcc6-d4b3f6e80927}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{413e39bc-b724-40c1-a7a3-defa2cc4007e}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{c1f873dd-7d7d-48e4-9b9b-14e01d472e73}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{d18cf486-6a99-4ada-b9e3-e2a285c3ee59}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{a14acaf8-88d5-4200-aa39-eea40c34f30e}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>
